@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Epic Games Clone</title>
+    <link rel="stylesheet" href="./static/css/1_nav.css">
+    <link rel="stylesheet" href="./static/css/2_nav2.css">
+    <link rel="stylesheet" href="./static/css/3_carousel.css">
+    <link rel="stylesheet" href="./static/css/3_carousel2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="./static/css/swiper-bundle.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./static/css/4_card_slider.css">
+    <link rel="stylesheet" href="./static/css/5_free_games.css">
+    <link rel="stylesheet" href="./static/css/rest.css">
+    <link rel="stylesheet" href="./static/css/9_media_index.css">
+    <style>
+        body::-webkit-scrollbar {
+            display: none;
+        }
+
+        .sticky {
+            position: fixed;
+            top: 0;
+            width: 100%;
+        }
+
+        .sticky+.carousel {
+            padding-top: 9rem;
+        }
+
+        .slideshow-container {
+            max-width: 1130px;
+            max-height: 710px;
+            position: relative;
+            margin-top: 2rem;
+            margin-left: 15rem;
+            width: 95rem;
+        }
+    </style>
+</head>
+
+<body>
+    {{>navbar}}
+
+    {{>nav2}}
+
+    {{>carosel carousel=carousel}}
+
+    {{>card_slider slider=slider}}
+
+    {{>suggest}}
+
+    {{>free_games}}
+
+    {{>card_slider}}
+
+    {{>suggest}}
+
+    <section class="explore_section">
+        <div class="ex_sec">
+            <div class="explore_img">
+                <img id="explore_img" src="./static/images/banner/explore.jpg" alt="">
+            </div>
+            <div class="explore_info">
+                <div class="exploreInfo_inner_cont">
+                    <a id="explore_title_text" href="">Explore Our Catalog</a>
+                    <p id="explore_details">Browse by genre, features, price, and more to find your next favorite game.
+                    </p>
+                    <button id="button_browse">
+                        BROWSE ALL
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="./static/js/index.js"></script>
+    <script src="./static/js/carosel.js"></script>
+    <script src="./static/js/swiper-bundle.min.js"></script>
+    <script src="./static/js/card_slider.js"></script>
+    <script>
+
+    </script>
+</body>
+
+</html>

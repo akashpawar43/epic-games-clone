@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&family=Roboto+Slab:wght@200&display=swap');
+
+:root{
+    --gray:#2a2a2a;
+    --black: rgb(18, 18, 18);
+    --gray_black: rgb(32, 32, 32);
+    --hover_blue: #007aff;
+    --text_gray: #969292;
+    --text_white: #fff;
+    --border: .2rem solid transparent;
+    --outline_hover: .4rem solid var(--hover_blue);
+    --opacity: 0.8;
+}
+
+*{
+    margin: 0; padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    outline: none; border: none;
+    text-decoration: none;
+    transition: all .2s linear;
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 7rem;
+}
+
+body{
+    background-color: var(--black);
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    margin: 0 auto;
+    background: var(--gray);
+}
+.logo_ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.8rem 0;
+}
+#epic_logo{
+    height: 3.6rem;
+    margin: 0 2rem;
+}
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 3rem;
+    font-size: 1.2rem;
+}
+.navbar .nav_bar{
+    display: flex;
+    gap: 2.6rem;
+}
+.navbar #nav_a{
+    text-decoration: none;
+    color: var(--text_gray);
+}
+.navbar #nav_a:hover{
+    color: var(--text_white);
+}
+
+.signup_link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5rem;
+    width: 26rem;
+}
+.singup ,.download_link{
+    display: grid;
+    place-items: center;
+    height: 100%;
+    width: 13rem;
+}
+.singup a ,.download_link a{
+    color: var(--text_white);
+}
+.download_link{
+    background-color: #007aff;
+    opacity: 80%;
+}
+.download_link:hover{
+    opacity: 75%;
+}
+
+.header .dropdown{
+    width: 13rem;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    top: 7%;
+    right: 13rem;
+    z-index: 1100;
+    background: var(--gray);
+}   
+
+.header .dropdown a{
+    color: var(--text_gray);
+    padding: 1rem;
+}
+
+.header .dropdown a:hover{
+    color: var(--text_white);
+}
+
+.container {
+    display: inline-block;
+    cursor: pointer;
+    background: var(--hover_blue);
+    padding: 0.8rem;
+    /* margin: .4vh 1vw; */
+}
+  
+.bar1, .bar2, .bar3 {
+    width: 25px;
+    height: 2px;
+    background-color: rgb(252, 249, 249);
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+.header .form_hidden {
+    display: none;
+}
+
+.form_hidden {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+

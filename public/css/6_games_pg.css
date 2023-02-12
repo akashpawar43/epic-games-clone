@@ -1,0 +1,332 @@
+.game_main_title_big{
+    font-size: 4rem;
+    color: var(--text_white);
+    margin: 0 auto;
+    max-width: 1140px;
+}
+
+
+/* gamepage carousel */
+.carousel{ 
+    display: flex;
+    flex-direction: row;
+    margin: 0px auto;
+    max-width: 1140px;
+    margin-bottom: 3rem;
+}
+.carousel .carosel{
+    width: 77rem;
+    display: flex;
+    flex-direction: column;
+}
+.carousel .carosel .slideshow-container {
+    max-width: 1130px;
+    max-height: 710px;
+    position: relative;
+    margin-top: 2rem;
+    margin-left: 0;
+}
+.carousel .carosel .slideshow-container .mySlides #cars{
+    height: 60vh;
+    width: 100%;
+    background-size: cover;
+    border-radius: 1.5rem;
+    max-width: 950px;
+    max-height: 526px;
+}
+.carousel .dots{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin: 1rem auto;
+    max-width: 1440px;
+}
+.carousel .dot {
+    display: flex;
+    /* padding: 1rem; */
+    cursor: pointer;
+    height: 7rem;
+    width: 11.5rem;
+    margin: 1rem 1rem 0rem 1rem;
+    /* background-color: #bbb; */
+    border-radius: 1rem;
+    flex-direction: row;
+    transition: background-color 0.6s ease;
+}
+
+
+/* carsoel bottom */
+#game_det{
+    height: 10rem;
+    width: 100%;
+    color: white;
+    font-size: 1.7rem;
+    margin: 2rem 0;
+}
+.genre_feature{
+    height: 6rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin: 2rem 0 2rem;
+}
+.genre ,.feature{
+    width: 50%;
+    height: 100%;
+    padding: 1rem;
+    border-left: 0.1rem solid gray;
+}
+.gen_fe_title{
+    color: gray;
+    font-size: 1.5rem;
+}
+.gen_fe_{
+    color: white;
+}
+
+
+.notes{
+    height: 10rem;
+    background: var(--gray);
+    padding: 1rem;
+    margin: 2rem 0 2rem;
+}
+#note{
+    color: var(--text_gray);
+    font-size: 1.2rem;
+}
+#note_det{
+    color: var(--text_white);
+    font-size: 1.4rem;
+}
+
+
+/* game_indepth_details */
+.game_depth_title{
+    color: var(--text_white);
+    font-size: 1.4rem;
+    margin-bottom: 2rem;
+}
+
+.game_depth_info{
+    color: var(--text_gray);
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+
+
+/* game rate */
+.epic_player_rating{
+    display: flex;
+    flex-direction: row;
+    margin: 0px auto;
+    max-width: 1140px;
+    margin-bottom: 3rem;
+}
+.epic_player_rating_cont{
+    width: 77rem;
+}
+.rating_title{
+    font-size: 2.2rem;
+    color: var(--text_white);
+}
+.rating_title_sub{
+    font-size: 1.3rem;
+    color: var(--text_gray);
+    margin: 1.3rem 0;
+}
+.rate_star{
+    height: 10rem;
+    margin: 1rem 0;
+}
+.grid_rate{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;    
+}
+.grid_rate_table{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 3rem;
+}
+.type_rating_box{
+    height: 23.6rem;
+    width: 23.6rem;
+    padding: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: var(--gray);
+    border-radius: .5rem;
+}
+.rating_svg{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+.rating-text{
+    text-align: center;
+}
+.rating_svg_{
+    height: 8rem;
+}
+.rating_text_sm{
+    font-size: 1.1rem;
+    color: var(--text_gray);
+}
+.rating_text_title{
+    font-size: 2rem;
+    color: white;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+/* aside game hover container */
+.game_detail_hover {
+    width: 28%;
+    margin-left: 5rem;
+    margin-top: 2rem;
+}
+.game_detail_hover_cont{
+    width: 100%;
+    /* height: 65rem; */
+    /* background: var(--gray); */
+    position: sticky;
+    top: 10rem;
+}
+.flex_detail_cont{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+.game_hover_logo{
+    margin-top: 2rem;
+    height: 20rem;
+    display: flex;
+}
+#game_hover_logo_link{
+    width: 25rem;
+    height: 70%;
+    margin: auto;
+}
+#type_game{
+    height: 2.5rem;
+    width: 7rem;
+    color: var(--text_white);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--gray);
+    margin: 1rem 0;
+    border-radius: 3px;
+}
+.disccount_and_price{
+    gap: 1rem;
+    display: flex;
+    width: 100%;
+    height: 2.8rem;
+    margin-bottom: 1rem;
+    align-items: center;
+    justify-content: flex-start;
+}
+.discount_percent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 5rem;
+    border-radius: 0.5rem;
+    background: var(--hover_blue);
+    color: var(--text_white);
+}
+.discount_price ,.price_after_discount{
+    font-size: 1.3rem;
+    color: var(--text_white);
+}
+.discount_price{
+    color: var(--text_gray);
+    text-decoration: line-through;
+}
+#game_sale_detail_hover{
+    color: var(--text_white);
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+.btn{
+    color: var(--text_white);
+    display: grid;
+    place-items: center;
+    background: var(--black);
+    border: 1px solid var(--text_gray);
+    border-radius: .5rem;
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+.btn_blue{
+    background: var(--hover_blue);
+    border: .2rem solid var(--hover_blue);
+}
+.pre_pur_add_cart{
+    width: 100%;
+    height: 5rem;
+}
+.pre_pur_add_cart_sm {
+    width: 100%;
+    height: 3.6rem;
+    font-size: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    letter-spacing: 1px;
+}
+#wishlist_icon {
+    border-radius: 50%;
+    font-size: 1.4rem;
+    font-weight: bold;
+    width: 1.9rem;
+    border: 0.2rem solid white;
+    margin-right: 1rem;
+}
+
+.games_main_details_inshort_container{
+    margin-bottom: 1rem;
+}
+.details_inshort{
+    color: var(--text_white);
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.4rem;
+    padding: 1rem 0;
+    border-bottom: 2px solid var(--gray);
+}
+.details_inshort_left{
+    color: var(--text_gray);
+}
+.hover_btns{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+}
+.btn_half{
+    height: 3rem;
+    width: 50%;
+}

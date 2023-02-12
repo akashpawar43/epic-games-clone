@@ -1,0 +1,699 @@
+@media (max-width : 1440px){
+
+    html{ 
+        font-size: 58%;
+    }
+    body{
+        width: 100vw;
+    }
+    .carousel .carosel .slideshow-container{
+        margin: 1rem 1rem 0 auto;
+        width: 104rem;
+    }
+    .carousel .carosel .slideshow-container .mySlides #car{
+        height: 53rem;
+        width: 105rem;
+        max-width: 110rem;
+        max-height: 100rem;
+    }
+    .carousel .carosel .dots {
+        padding-top: 0rem;
+    }
+    .carousel .carosel .dots .dot{
+        margin: 1rem 1rem 0rem 1rem;
+    }
+    .suggestions .suggest_card {
+        height: 100%;
+        width: 38rem;
+    }
+    .slide-container .slide-content .image-content{
+        height: 34rem;
+    }
+    
+}
+@media (max-width : 1320px){
+
+    html{ 
+        font-size: 59%;
+    }
+    body{
+        width: 100vw;
+    }
+    .carousel {
+        margin: 0px auto;
+        width: 123rem;
+        max-width: 1130px!important;
+    }
+    .carousel .carosel .slideshow-container{
+        margin-top: 1rem ;
+        width: 100rem;
+    }
+    .carousel .carosel .slideshow-container .mySlides #car {
+        height: 52rem;
+        max-width: 100rem;
+        max-height: 100rem;
+        width: 100rem;
+    }
+    .carousel .carosel .dots {
+        padding-left: 0;
+        width: 82vw;
+        margin: 0 auto;
+        display: flex;
+    }
+    .free_games_section{
+        height: 57rem;
+    }
+    .free_games_cont .free_games{
+        gap: 2.4rem;
+    }
+    .free_games_cont .free_games .free_games_card {
+        width: 27rem;
+    }
+}
+@media (max-width : 1184px){
+
+    html{ 
+        font-size: 59%;
+    }
+    body{
+        width: 100vw;
+    }
+    .nav2 .nav_2{
+        padding: 0px 1rem;
+    }
+    .carousel .carosel{
+        height: 53.6rem;
+    }
+    .carousel .carosel .slideshow-container{
+        margin: 1rem;
+        height: 100%;
+    }
+    .carousel .carosel .slideshow-container .mySlides {
+        width: 75rem;
+        height: 100%;
+    }
+    .carousel .carosel .slideshow-container .mySlides #car{
+        height: 52.3rem;
+        width: 97rem;
+        max-height: 79vh;
+        max-width: 97rem;
+    }
+    .carousel .carosel .dots {
+        padding-left: 0;
+        width: 17vw;
+        margin: 0 auto;
+        display: flex;
+    }
+    .carousel .carosel .dots .dot{
+        margin: 1rem 1rem 0rem 1rem;
+    }
+}
+
+@media (max-width : 1111px){
+
+    html{ 
+        font-size: 58%;
+    }
+    body{
+        width: 122rem;
+    }
+    .nav2 .nav_2{
+        padding: 0px 1rem;
+        width: 120rem;
+    }
+    .carousel .carosel .slideshow-container{
+        margin: 1rem;
+        height: 100%;
+    }
+    .carousel .carosel .slideshow-container .mySlides {
+        width: 66rem;
+        height: 100%;
+    }
+    .carousel .carosel .slideshow-container .mySlides #car{
+        height: 52.3rem;
+        width: 99rem;
+        max-height: 80vh;
+        max-width: 100rem!important;
+    }
+    .carousel .carosel .dots {
+        padding-left: 0;
+        width: 19vw!important;
+        margin: 0 auto;
+        display: flex;
+    }
+    .slide-container .slide-content .image-content{
+        height: 38rem;
+    }
+    .slide-container .slide-content .image-content .card-image{
+        position: unset;
+    }
+    .slide-container .slide-content .image-content .card-image .card-img {
+        width: 94%;
+        object-fit: cover;
+        border-radius: 1rem;
+    }
+}
+
+@media (max-width : 1111px){
+    body{
+        width: 100vw;
+    }
+    .carousel{
+        width: 100%;
+    }
+    .carousel .carosel .slideshow-container .mySlides {
+        width: 100%;
+    }
+    .carousel .carosel .slideshow-container .mySlides #car {
+        width: 100%;
+    }
+
+    .suggestions {
+        gap: 3rem;
+        width: 97%;
+    }
+    .free_games_cont .free_games .free_games_card {
+        width: 26.5rem;
+    }
+    .free_games_cont .free_games .free_games_card .free_games_card_img {
+        width: 100%;
+    }
+
+    .explore_section {
+        padding: 0 1rem;
+
+    }
+}
+
+@media only screen and (max-width : 991px){
+
+    /* html{ 
+        padding-left: 2rem; 
+    } */
+    body{
+        width: 100vw;
+    }
+    .nav2 .nav_2{
+        padding: 0;
+    }
+    .nav2_left{
+        margin-left: 1rem;
+    }
+    .carousel{
+        width: 100%;
+    }
+    .carousel .carosel .slideshow-container {
+        margin: 1rem 1rem 1rem 1rem;
+        height: 100%;
+    }
+    .carousel .carosel .slideshow-container .mySlides {
+        width: 100%;
+    }
+    .carousel .carosel .slideshow-container .mySlides #car {
+        height: 52rem;
+        width: 100%;
+        max-width: 100rem;
+    }
+    .carousel .carosel .dots {
+        padding-left: 0;
+        width: 21vw!important;
+        margin: 0 auto;
+        display: flex;
+    }
+    .slide-container .slide-content .image-content{
+        height: 34rem;
+    }
+    .slide-container .slide-content .image-content .card-image .card-img {
+        width: 98%;
+        object-fit: cover;
+        border-radius: 1rem;
+    }
+    .suggestion_section .suggestions {
+        height: 35rem;
+        gap: 3rem;
+    }
+    .explore_section {
+        height: 40rem;
+    }
+    .explore_section .ex_sec .explore_img #explore_img{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width : 821px){
+
+    html{ 
+        font-size: 56%;
+    }
+    body{
+        width: 100vw;
+    }
+    .nav2 .nav_2 {
+        padding-left: 2rem;
+        width: 122rem;
+    }
+    .nav2_left{
+        margin-left: 0rem;
+    }
+    .carousel{
+        width: 100%;
+    }
+    .carousel .carosel .slideshow-container {
+        margin: 1rem 1rem 0 2rem;
+    }
+    .carousel .carosel .slideshow-container .mySlides {
+        width: 100%;
+    }
+    .carousel .carosel .slideshow-container .mySlides #car {
+        height: 52rem;
+        height: 52rem;
+        width: 100%;
+        max-width: 110rem;
+    }
+    .carousel .carosel .dots {
+        padding-left: 0;
+        width: 20rem!important;
+        margin: 0 auto;
+        display: flex;
+    }
+    .slide-container .onSale{
+        margin-left: 1rem;
+    }
+    .slide-container .slide-content .image-content{
+        height: 31rem;
+    }
+    .suggestions {
+        gap: 3rem!important;
+        height: 40rem;
+    }
+    .free_games_section{
+        height: 50rem;
+    }
+    .explore_section .ex_sec .explore_img #explore_img{
+        width: 100%;
+    }
+}
+
+@media (max-width : 768px){
+    html{ 
+        font-size: 56%;
+    }
+    body{
+        width: 100vw;
+    }
+    .header{
+        width: 100%;
+    }   
+    .nav2 .nav_2 {
+        padding: 0 1vh;
+    }
+    .carousel {
+        width: 100%;
+    }
+    .carousel .carosel .slideshow-container {
+        margin: 1rem 0rem 0 2rem;
+        /* width: 64rem; */
+        width: 75%;
+    }
+    .carousel .carosel .slideshow-container .mySlides #car {
+        height: 52rem;
+        /* width: 63rem; */
+        width: 100%;
+        max-width: 100rem;
+    }
+    .carousel .carosel .dots {
+        right: 1rem;
+    }
+    .slide-container .slide-content .image-content{
+        height: 29rem;
+    }
+    .suggestion_section .suggestions {
+        gap: 3rem;
+        height: 35rem;
+    }
+    .free_games_section{
+        height: 48rem;
+    }
+    .explore_section .ex_sec .explore_img #explore_img{
+        width: 100%;
+    }
+}
+@media only screen and (max-width : 660px){
+    html{
+        font-size: 55%;
+    }
+    body{
+        width: 100vw;
+    }
+    /* navbar  */
+    #navbar_1,#signup_link2{
+        display: none;
+    }
+    #ham{
+        display: inline-block;
+    }
+    .navbar_flex{
+        top: 5%;
+        bottom: 0;
+        width: 90%;
+        height: 82%;
+        margin-left: 6.4rem;
+        background: var(--gray);
+        display: flex;
+        position: absolute;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        padding: 1rem;
+        z-index: 1111;
+    }
+    .navbar_flex.active{
+        right: 0;
+        width: 90%;
+    }
+    .navbar_flex .nav_bar{
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-direction: column;
+        width: 100%;
+        font-size: 1.7rem;
+    }
+    .navbar_flex .nav_bar #nav_a{
+        margin: 1rem;
+    }
+    .navbar_flex #signup_link1{
+        position: absolute;
+        height: 16%;
+        top: 100%;
+        width: 100%;
+        background: var(--gray);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        
+    }
+    .singup, .download_link{
+        width: 100%;
+    }
+
+    /* navbar 2 */
+    .nav2_left {
+        width: 100%;
+    }
+    .nav2_left .nav2_left_search {
+        width: 100%;
+        margin-right: 0;
+    }
+    .nav2_left .nav2_left_list{
+        display: none;
+    }
+    .nav2_right{
+        display: none;
+    }
+
+    .form_hidden{
+        display: none;
+    }
+
+    /* slider */
+    .slide-container .slide-content .image-content {
+        height: 25rem;
+    }
+
+    .carousel{
+        display: none;
+    }
+    .carousel .carosel .dots{
+        display: none;
+    }
+
+    .carosel_2{
+        display: flex;
+        height: 56rem!important;
+    }
+    .carosel_2 .carosel_cont2::-webkit-scrollbar{
+        display: none;
+    }
+
+    /* suggestion_section */
+    .suggestion_section{
+        width: 100%;
+        padding: 0 1rem;
+        margin: 0 auto;
+    }
+    .suggestion_section .suggestions {
+        width: 100%;
+        height: 42rem;  
+        display: grid;
+        grid-auto-flow: column;
+        overflow-y: auto;
+        overscroll-behavior-x: contain;
+        scroll-snap-type: x mandatory;
+    }
+    .suggestion_section .suggestions::-webkit-scrollbar {
+        display: none;
+    }
+    .suggestions .suggest_card {
+        height: 100%;
+        width: 38rem;
+    }
+
+    /* free games section scroll */
+    .free_games_section {
+        height: 55rem;
+    }
+    .free_games_section .free_games_cont::-webkit-scrollbar{
+        display: none;
+    }
+    .free_games_section .free_games_cont .free_games {
+        gap: 2.4rem;
+        height: 45rem;
+        display: grid;
+        grid-auto-flow: column;
+        scroll-behavior: auto;
+        overflow-y: auto;
+        overscroll-behavior-x: contain;
+        scroll-snap-type: x mandatory;
+        scrollbar-width: none;
+    }
+    .free_games_section .free_games_cont .free_games::-webkit-scrollbar{
+        display: none;
+    }
+
+    /* explore section */
+    .explore_section {
+        height: 50rem;
+        width: 100%;
+        flex-direction: column;
+    }
+    .explore_section .ex_sec {
+        height: 45rem;
+        width: 92%;
+        flex-direction: column;
+    }
+    .explore_section .ex_sec .explore_img,.explore_img #explore_img {
+        border-radius: 1rem;
+        width: 100%;
+        /* margin: 0 auto; */
+    }
+    .explore_section .ex_sec .explore_info {
+        width: 100%;
+        margin-top: 2rem;
+        padding-left: 0;
+    }
+    #button_browse{
+        display: none;
+    }
+   
+    
+}
+@media only screen and (max-width : 480px){
+    html{
+        font-size: 55%;
+    }
+    body{
+        width: 100vw;
+    }
+    #navbar_1,#signup_link2{
+        display: none;
+    }
+    #ham{
+        display: inline-block;
+    }
+    .navbar_flex{
+        top: 5%;
+        bottom: 0;
+        width: 90%;
+        height: 85.5rem;
+        margin-left: 5rem;
+        background: var(--gray);
+        display: flex;
+        position: absolute;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        padding: 1rem;
+        z-index: 1111;
+    }
+    .navbar_flex.active{
+        right: 0;
+        width: 90%;
+    }
+    .navbar_flex .nav_bar{
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-direction: column;
+        width: 100%;
+        font-size: 1.7rem;
+    }
+    .navbar_flex .nav_bar #nav_a{
+        margin: 1rem;
+    }
+    .navbar_flex #signup_link1{
+        position: absolute;
+        height: 16%;
+        top: 100%;
+        width: 100%;
+        background: var(--gray);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        
+    }
+    .singup, .download_link{
+        width: 100%;
+    }
+    .nav2_left {
+        width: 100%;
+    }
+    .nav2_left .nav2_left_search {
+        width: 100%;
+        margin-right: 0;
+    }
+    .nav2_left .nav2_left_list{
+        display: none;
+    }
+    .nav2_right{
+        display: none;
+    }
+    .form_hidden{
+        display: none;
+    }
+
+    .slide-container .slide-content .image-content {
+        height: 19rem;
+    }
+
+    .carousel{
+        display: none;
+    }
+    .carousel .carosel .dots{
+        display: none;
+    }
+
+    /* suggest section */
+    .suggestion_section {
+        width: 100%;
+        height: 40rem;
+        padding: 0 1rem;
+        margin: 0 auto;
+    }
+    .suggestion_section .suggestions {
+        width: 100%;
+        display: grid;
+        grid-auto-flow: column;
+        overflow-y: auto;
+        overscroll-behavior-x: contain;
+        scroll-snap-type: x mandatory;
+    }
+    /* free games section scroll */
+    .free_games_section{
+        height: 55rem;
+    }
+    .free_games_section .free_games_cont::-webkit-scrollbar{
+        display: none;
+    }
+    .free_games_section .free_games_cont .free_games {
+        gap: 2.4rem;
+        height: 45rem;
+        display: grid;
+        grid-auto-flow: column;
+        scroll-behavior: auto;
+        overflow-y: auto;
+        overscroll-behavior-x: contain;
+        scroll-snap-type: x mandatory;
+        scrollbar-width: none;
+    }
+
+    /* explore section */
+    .explore_section {
+        height: 50rem;
+        width: 100%;
+        flex-direction: column;
+    }
+    .explore_section .ex_sec {
+        height: 45rem;
+        width: 92%;
+        flex-direction: column;
+    }
+    .explore_section .ex_sec .explore_img,.explore_img #explore_img {
+        border-radius: 1rem;
+        width: 100%;
+        /* margin: 0 auto; */
+    }
+    .explore_section .ex_sec .explore_info {
+        width: 100%;
+        margin-top: 2rem;
+        padding-left: 0;
+    }
+    #button_browse{
+        display: none;
+    }
+    /* .form_hidden{
+        display: none;
+    } */
+}
+@media only screen and (max-width : 399px){
+    html{
+        font-size: 50%;
+    }
+    body{
+        width: 100vw;
+    }
+    .navbar_flex {
+        height: 87rem;
+    }
+    .navbar_flex #signup_link1 {
+        height: 15.3%;
+        font-size: 1.3rem;
+    }
+}
+@media only screen and (max-width : 379px){
+    html{
+        font-size: 50%;
+    }
+    body{
+        width: 100vw;
+    }
+    .navbar_flex {
+        height: 83vh;
+    }
+    .navbar_flex #signup_link1 {
+        height: 15.3%;
+        font-size: 1.3rem;
+    }
+    .slide-container .slide-content .image-content {
+        height: 18rem;
+    }
+    .suggestions .suggest_card {
+        height: 100%;
+        width: 33rem;
+    }
+    .free_games_section {
+        height: 55rem;
+    }
+}

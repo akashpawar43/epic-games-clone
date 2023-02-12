@@ -1,0 +1,177 @@
+.free_games_section {
+    height: 56rem;
+    padding: 3rem;
+    margin: 0 auto;
+    border-radius: 0.6rem;
+    max-width: 1140px;
+    background: var(--gray);
+    margin-bottom: 2rem;
+}
+
+.free_games_cont {
+    display: flex;
+    flex-direction: column;
+}
+
+.free_game_head {
+    height: 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    margin-bottom: 2rem;
+}
+
+.free_games_head_right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fa-gift {
+    font-size: 4rem;
+    padding: 0;
+    color: white;
+}
+
+.free_games_title {
+    font-size: 2rem;
+    color: white;
+    padding-left: 1rem;
+    font-weight: 300;
+}
+
+.free_games_head_left {
+    height: 85%;
+    width: 11rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.1rem solid white;
+    border-radius: 0.4rem;
+}
+
+#view_more_free_games {
+    height: 100%;
+    font-size: 1.4rem;
+    color: white;
+    width: 11rem;
+    display: contents;
+}
+
+.free_games_head_left:hover {
+    background: rgba(255, 255, 255, 0.3);
+}
+
+.free_games {
+    height: 43rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 1.4rem;
+}
+
+.free_games_card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 25%;
+    gap: 1rem;
+}
+
+.free_games_card_img {
+    width: 26rem;
+    background: var(--hover_blue);
+    border-radius: 0.4rem;
+}
+
+#free_games_img {
+    width: 100%;
+    border-top-left-radius: 0.4rem;
+    border-top-right-radius: 0.4rem;
+}
+
+.free_available {
+    display: grid;
+    place-items: center;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding-bottom: 0.4rem;
+}
+
+.free-games_card_info {
+    height: 5rem;
+    width: 100%;
+    margin-top: 1rem;
+}
+
+#free_games_title {
+    color: white;
+    font-size: 1.5rem;
+}
+
+#free_games_info {
+    color: white;
+    font-size: 1.5rem;
+}
+
+.explore_section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50rem;
+    max-width: 1140px;
+    margin: 0 auto;
+    margin-bottom: 3rem;
+}
+
+.ex_sec {
+    height: 45rem;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+}
+
+.explore_img,
+#explore_img {
+    border-radius: 1rem;
+    width: 68rem;
+}
+
+.explore_info {
+    height: 85%;
+    width: 46rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 2.5rem;
+}
+
+.exploreInfo_inner_cont {
+    display: flex;
+    flex-direction: column;
+    /* height: 25rem; */
+    width: 100%;
+}
+
+#explore_title_text {
+    color: white;
+    font-size: 2rem;
+}
+
+#explore_details {
+    color: var(--text_gray);
+    font-size: 1.6rem;
+    margin: 2rem 0;
+    margin-bottom: 5rem;
+}
+
+#button_browse {
+    height: 5rem;
+    width: 11rem;
+    border-radius: 0.4rem;
+    cursor: pointer;
+}

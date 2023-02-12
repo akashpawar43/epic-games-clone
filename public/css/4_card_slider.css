@@ -1,0 +1,162 @@
+/* Google Fonts - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+/* *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+} */
+
+.slide-container{
+  max-width: 1140px;
+  width: 100%;
+  padding: 5rem 0;
+}
+.onSale {
+  position: absolute;
+  top: 1rem;
+  height: 5rem;
+  width: 65rem;
+  background: transparent;
+}
+
+.onSale_text {
+  height: 100%;
+}
+
+#onSale_text {
+  font-size: 2.3rem;
+  color: white;
+}
+.slide-content{
+  overflow: hidden;
+}
+.card{
+  color: var(--text_white);
+  background-color: transparent;
+}
+.image-content,
+.card-content{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  color: var(--text_white);
+}
+.image-content{
+  position: relative;
+  row-gap: 5px;
+  width: 100%;
+  height: 31rem;
+}
+.overlay{
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #4070F4;
+  border-radius: 25px 25px 0 25px;
+}
+.overlay::before,
+.overlay::after{
+  content: '';
+  position: absolute;
+  right: 0;
+  bottom: -40px;
+  height: 40px;
+  width: 40px;
+  background-color: #4070F4;
+}
+.overlay::after{
+  border-radius: 0 25px 0 0;
+  background-color: #FFF;
+}
+.card-image{
+  position: relative;
+  background: transparent;
+}
+.card-image .card-img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 1rem;
+}
+.disccount_and_price{
+  gap: 1rem;
+  display: flex;
+  width: 100%;
+  height: 2.8rem;
+  margin-top: 1rem;
+  align-items: center;
+  justify-content: flex-start;
+}
+.discount_percent{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 5rem;
+  background: var(--hover_blue);
+  border-radius: 0.5rem;
+}
+.discount_price ,.price_after_discount{
+  font-size: 1.3rem;
+}
+.discount_price{
+  text-decoration: line-through;
+}
+.name{
+  font-size: 18px;
+  font-weight: 500;
+  color: #333;
+}
+.description{
+  font-size: 14px;
+  color: #707070;
+  text-align: center;
+}
+
+.swiper-navBtn{
+  color: var(--text_white);
+  transition: color 0.3s ease;
+}
+.swiper-navBtn:hover{
+  color: var(--text_white);
+}
+.swiper-navBtn::before,
+.swiper-navBtn::after{
+  font-size: 1.6rem;
+}
+.swiper-button-next{
+  top: 3rem;
+  right: 1rem;
+  height: 3rem;
+  width: 3rem;
+  border-radius: 50%;
+  background: var(--gray);
+}
+.swiper-button-prev{
+  top: 3rem;
+  right: 5rem;
+  height: 3rem;
+  width: 3rem;
+  border-radius: 50%;
+  background: var(--gray);
+}
+.swiper-pagination-bullet{
+  background-color: #6E93f7;
+  opacity: 1;
+}
+.swiper-pagination-bullet-active{
+  background-color: #4070F4;
+}
+
+@media screen and (max-width: 768px) {
+  .slide-content{
+    margin: 0 10px;
+  }
+  .swiper-navBtn{
+    display: none;
+  }
+}

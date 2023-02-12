@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&family=Roboto+Slab:wght@200&display=swap');
+
+:root{
+    --gray:#2a2a2a;
+    --black: rgb(18, 18, 18);
+    --gray_black: rgb(32, 32, 32);
+    --hover_blue: #007aff;
+    --text_gray: #969292;
+    --text_white: #fff;
+    --border: .2rem solid transparent;
+    --outline_hover: .4rem solid var(--hover_blue);
+    --opacity: 0.8;
+}
+
+*{
+    margin: 0; padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    outline: none; border: none;
+    text-decoration: none;
+    transition: all .2s linear;
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 7rem;
+}
+
+body{
+    background-color: var(--black);
+}
+
+.login{
+    width: 100%;
+}
+
+.form_cont {
+    margin: 3.5rem auto;
+    width: 100%;
+    max-width: 475px;
+    padding: 5.5rem 6rem;
+    background: #202020;
+}
+.form_inner_cont{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#epic_logo{
+    height: 5rem;
+    margin-bottom: 4rem;
+}
+.form_text{
+    color: var(--text_white);
+    font-size: 1.7rem;
+    font-weight: 600;
+    margin: 1rem 0;
+}
+.field{
+    width: 100%;
+}
+input{
+    height: 6rem;
+    background: none;
+    /* background: rgba(0, 0, 0, 0.1); */
+    margin: 0.5rem 0;
+    padding-left: 2rem;
+    border-radius: 0.3rem;
+    color: var(--text_gray);
+    border: 0.1rem solid var(--text_gray);
+}
+.err-cont{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    color: red;
+    font-size: 1.2rem;
+    display: none;
+}
+
+.field.error input {
+    border-color: red;
+}
+
+
+input::placeholder{
+    font-weight: 600;
+    color: var(--text_gray);
+}
+input:focus{
+    color: var(--text_white);
+    border: 0.1rem solid var(--text_white);
+    background: transparent;
+}
+input:focus::placeholder{
+    color: var(--text_white);
+}
+.input_full{
+    width: 100%;
+}
+.input_half_cont{
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+}
+.input_half_cont_in{
+    display: flex;
+    flex-direction: column;
+}
+.input_half{
+    width: 100%;
+}
+
+
+form .field.shake input,
+form .field.error input {
+    border-color: #dc3545;
+}
+
+form .field .error-txt {
+    color: #dc3545;
+    text-align: left;
+    margin-top: 5px;
+}
+
+form .field .error {
+    display: none;
+}
+
+form .field.shake .error,
+form .field.error .error {
+    display: block;
+}
+
+form .field input:focus,
+form .field.valid input {
+    border-color: var(--text_white);
+    color: var(--text_white);
+}
+.rem_cont {
+    height: 4rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.check_box{
+    margin: 0.3rem;
+    margin-left: -0.3rem;
+    padding: 0.5rem;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+}
+.rem_cont_inner{
+    display: flex;
+    align-items: center;
+}
+#remember_me{
+    height: 1.7rem;
+    width: 1.7rem;
+}
+.check_box:hover{
+    opacity: 0.7;
+}
+#rem_text{
+    color: var(--text_gray);
+    margin-left: 1rem;
+}
+.link{
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+    color: var(--text_white);
+    text-decoration: underline;
+}
+.link:hover{
+    text-decoration: none;
+}
+.btn{
+    width: 100%;
+    height: 6rem;
+    border-radius: 0.3rem;
+    background: var(--hover_blue);
+    color: var(--text_white);
+    margin: 3rem 0;
+    cursor: pointer;
+}
+.redirect_sign{
+    font-size: 1.3rem;
+}
+.redirect_sign{
+    font-size: 1.3rem;
+}
+.gray{
+    margin: 1rem 0;
+    font-size: 1.3rem;
+    color: var(--text_gray);
+}

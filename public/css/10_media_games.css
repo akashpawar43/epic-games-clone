@@ -1,0 +1,632 @@
+@media (max-width : 1440px){
+
+    html{ 
+        font-size: 58%;
+    }
+    body{
+        width: 100vw;
+    }
+    .carousel .carosel{
+        width: 80rem;
+    }
+    .carousel .carosel .slideshow-container{
+        /* margin: 1rem 1rem 0 auto; */
+        width: 100%;   
+    }
+    .carousel .carosel .slideshow-container .mySlides #car{
+        height: 53rem;
+        width: 100%;
+        max-width: 110rem;
+        max-height: 100rem;
+    }
+    .carousel .carosel .dots {
+        padding-top: 0rem;
+    }
+    .carousel .carosel .dots .dot{
+        margin: 1rem 1rem 0rem 1rem;
+    }
+    .suggestions .suggest_card {
+        height: 100%;
+        width: 38rem;
+    }
+    .slide-container .slide-content .image-content{
+        height: 34rem;
+    }
+    
+}
+/* @media (max-width : 1320px){
+
+    html{ 
+        font-size: 59%;
+    }
+    body{
+        width: 100vw;
+    }
+    .carousel {
+        margin: 0px auto;
+        width: 123rem;
+        max-width: 1130px!important;
+        display: flex;
+        flex-direction: row;
+    }
+    .carousel .carosel .slideshow-container{
+        margin-top: 1rem ;
+        width: 80rem;
+    }
+    .carousel .carosel .slideshow-container .mySlides #car {
+        width: 100%;
+        height: 52rem;
+        max-width: 100rem;
+        max-height: 100rem;
+    }
+    .carousel .carosel .dots {
+        padding-left: 0;
+        width: 80rem;
+        display: flex;
+    }
+    .carousel .carosel .dots .dot{
+        width: 13.5rem;
+    }
+} */
+@media (max-width : 1184px){
+
+    html{ 
+        font-size: 59%;
+    }
+    body{
+        width: 100vw;
+    }
+    .nav2 .nav_2{
+        padding: 0px 1rem;
+    }
+    /* .carousel .carosel{
+        height: 53.6rem;
+    } */
+    .carousel .carosel .slideshow-container{
+        margin: 1rem;
+        height: 100%;
+    }
+    .carousel .carosel .slideshow-container .mySlides {
+        width: 100%;
+        height: 100%;
+    }
+    .carousel .carosel .slideshow-container .mySlides #car{
+        height: 52.3rem;
+        width: 100%;
+        max-height: 79vh;
+        max-width: 97rem;
+    }
+    .carousel .carosel .dots {
+        padding-left: 0;
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+    }
+    .carousel .carosel .dots .dot{
+        margin: 1rem 1rem 0rem 1rem;
+    }
+}
+
+/* @media (max-width : 1111px){
+
+    html{ 
+        font-size: 58%;
+    }
+    body{
+        width: 122rem;
+    }
+    .nav2 .nav_2{
+        padding: 0px 1rem;
+        width: 120rem;
+    }
+    .carousel .carosel .slideshow-container{
+        margin: 1rem;
+        height: 100%;
+    }
+    .carousel .carosel .slideshow-container .mySlides {
+        width: 100%;
+        height: 100%;
+    }
+    .carousel .carosel .slideshow-container .mySlides #car{
+        height: 52.3rem;
+        width: 100%;
+        max-height: 80vh;
+        max-width: 100rem!important;
+    }
+    .carousel .carosel .dots {
+        padding-left: 0;
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+    }
+    .slide-container .slide-content .image-content{
+        height: 38rem;
+    }
+    .slide-container .slide-content .image-content .card-image{
+        position: unset;
+    }
+    .slide-container .slide-content .image-content .card-image .card-img {
+        width: 94%;
+        object-fit: cover;
+        border-radius: 1rem;
+    }
+} */
+
+@media (max-width : 1111px){
+    body{
+        width: 100vw;
+    }
+    .game_main_title_big {
+        margin-left: 1rem;
+    }
+    .carousel{
+        width: 100%;
+        height: 152rem;
+    }
+    .carousel .carosel {
+        width: 78rem;
+    }
+    .carousel .carosel .slideshow-container .mySlides {
+        width: 100%;
+    }
+    .carousel .carosel .slideshow-container .mySlides #car {
+        width: 100%;
+    }
+    .carousel .carosel .dots {
+        width: 100%;
+    }
+    #game_det ,.genre_feature,.notes,.game_indepth_details,.epic_player_rating{
+        margin-left: 1rem;
+    }
+    .game_detail_hover {
+        margin-right: 1rem;
+        margin-left: 4rem;
+    }
+    .epic_player_rating_cont {
+        width: 76rem;
+    }
+    .type_rating_box {
+        width: 23.2rem;
+    }
+}
+
+@media only screen and (max-width : 1024px){
+    html{
+        font-size: 55%;
+    }
+    body{
+        width: 100%;
+    }
+    .carousel{
+        width: 100%;
+        height: 152rem;
+    }
+    .carousel .carosel {
+        width: 71rem;
+    }
+    .type_rating_box {
+        width: 22.6rem;
+    }
+}
+@media only screen and (max-width : 991px){
+    html{
+        font-size: 50%;
+    }
+    .nav2 .nav_2{
+        padding: 0;
+    }
+    .nav2_left{
+        margin-left: 1rem;
+    }
+    .carousel{
+        width: 100%;
+    }
+    .carousel .carosel {
+        width: 84rem;
+    }
+    .carousel .carosel .slideshow-container {
+        margin: 1rem 1rem 1rem 1rem;
+        height: 100%;
+    }
+    .carousel .carosel .slideshow-container .mySlides {
+        width: 100%;
+    }
+    .carousel .carosel .slideshow-container .mySlides #car {
+        height: 52rem;
+        width: 100%;
+        max-width: 100rem;
+    }
+    .carousel .carosel .dots {
+        padding-left: 0;
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+    }
+    .slide-container .slide-content .image-content{
+        height: 34rem;
+    }
+    .slide-container .slide-content .image-content .card-image .card-img {
+        width: 98%;
+        object-fit: cover;
+        border-radius: 1rem;
+    }
+    .game_detail_hover {
+        width: 27%;
+    }
+    .type_rating_box {
+        width: 23.3rem;
+    }
+}
+
+@media only screen and (max-width : 918px){
+    .carousel .carosel {
+        width: 75rem;
+    }
+    .game_detail_hover {
+        width: 27%;
+    }
+}
+@media only screen and (max-width : 824px){
+
+    html{ 
+        font-size: 56%;
+    }
+    body{
+        width: 100%;
+    }
+    .nav2 .nav_2 {
+        padding-left: 2rem;
+        width: 122rem;
+    }
+    .nav2_left{
+        margin-left: 0rem;
+    }
+    .carousel{
+        width: 100%;
+    }
+    .carousel .carosel {
+        width: 63rem;
+    }
+    .carousel .carosel .slideshow-container {
+        margin: 1rem 1rem 0 2rem;
+    }
+    .carousel .carosel .slideshow-container .mySlides {
+        width: 100%;
+    }
+    .carousel .carosel .slideshow-container .mySlides #car {
+        height: 52rem;
+        height: 52rem;
+        width: 100%;
+        max-width: 110rem;
+    }
+    .carousel .carosel .dots {
+        padding-left: 0;
+        margin: 0 auto;
+        display: flex;
+    }
+    .slide-container .onSale{
+        margin-left: 1rem;
+    }
+    .slide-container .slide-content .image-content{
+        height: 31rem;
+    }
+    .epic_player_rating_cont {
+        width: 65rem;
+    }
+    .type_rating_box {
+        width: 19.6rem;
+    }
+}
+
+@media (max-width : 768px){
+    html{ 
+        font-size: 56%;
+    }
+    body{
+        width: 100%;
+    }
+    .header{
+        width: 100%;
+    }   
+    .nav2 .nav_2 {
+        padding: 0 1vh;
+    }
+    .carousel {
+        width: 100%;
+    }
+    .carousel .carosel{
+        width: 56rem;
+    }
+    .carousel .carosel .slideshow-container {
+        margin: 1rem 0rem 0 2rem;
+        width: 100%;
+    }
+    .carousel .carosel .slideshow-container .mySlides #car {
+        height: 52rem;
+        width: 100%;
+        max-width: 100rem;
+    }
+    .carousel .carosel .dots {
+        right: 1rem;
+    }
+    .slide-container .slide-content .image-content{
+        height: 29rem;
+    }
+    .suggestion_section .suggestions {
+        gap: 3rem;
+        height: 40rem;
+    }
+    .epic_player_rating_cont {
+        width: 60rem;
+    }
+    .type_rating_box {
+        width: 17.6rem;
+    }
+}
+@media only screen and (max-width : 740px){
+    html{
+        font-size: 55%;
+    }
+    body{
+        width: 100vw;
+    }
+    /* navbar  */
+    #navbar_1,#signup_link2{
+        display: none;
+    }
+    #ham{
+        display: inline-block;
+    }
+    .navbar_flex{
+        top: 3.5%;
+        bottom: 0;
+        width: 90%;
+        height: 82%;
+        margin-left: 9rem;
+        background: var(--gray);
+        display: flex;
+        position: absolute;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        padding: 1rem;
+        z-index: 1111;
+    }
+    .navbar_flex.active{
+        right: 0;
+        width: 90%;
+    }
+    .navbar_flex .nav_bar{
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-direction: column;
+        width: 100%;
+        font-size: 1.7rem;
+    }
+    .navbar_flex .nav_bar #nav_a{
+        margin: 1rem;
+    }
+    .navbar_flex #signup_link1{
+        position: absolute;
+        height: 16%;
+        top: 100%;
+        width: 100%;
+        background: var(--gray);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        
+    }
+    .singup, .download_link{
+        width: 100%;
+    }
+
+
+    /* navbar 2 */
+    .nav2_left {
+        width: 100%;
+    }
+    .nav2_left .nav2_left_search {
+        width: 100%;
+        margin-right: 0;
+    }
+    .nav2_left .nav2_left_list{
+        display: none;
+    }
+    .nav2_right{
+        display: none;
+    }
+
+    .form_hidden{
+        display: none;
+    }
+
+    /* slider */
+    .slide-container .slide-content .image-content {
+        height: 25rem;
+    }
+
+    .carousel .carosel{
+        display: none;
+    }
+    .carousel .carosel .dots{
+        display: none;
+    }
+
+    .carosel_2{
+        display: flex;
+        height: 55rem!important;
+    }
+
+    .carousel {
+        width: 100%;
+        height: 100%;
+    }
+    .game_detail_hover {
+        width: 100%;
+        margin: 1rem;
+    }
+    .epic_player_rating_cont {
+        width: 100%;
+    }
+    .type_rating_box {
+        width: 24.9rem;
+    }
+    
+}
+@media only screen and (max-width : 720px){
+    .type_rating_box {
+        width: 47%;
+    }
+}
+@media only screen and (max-width : 480px){
+    html{
+        font-size: 55%;
+    }
+    body{
+        width: 100vw;
+    }
+    #navbar_1,#signup_link2{
+        display: none;
+    }
+    #ham{
+        display: inline-block;
+    }
+    .navbar_flex{
+        top: 5%;
+        bottom: 0;
+        width: 90%;
+        height: 83.5rem;
+        margin-left: 5rem;
+        background: var(--gray);
+        display: flex;
+        position: absolute;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        padding: 1rem;
+        z-index: 1111;
+    }
+    .navbar_flex.active{
+        right: 0;
+        width: 90%;
+    }
+    .navbar_flex .nav_bar{
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-direction: column;
+        width: 100%;
+        font-size: 1.7rem;
+    }
+    .navbar_flex .nav_bar #nav_a{
+        margin: 1rem;
+    }
+    .navbar_flex #signup_link1{
+        position: absolute;
+        height: 16%;
+        top: 100%;
+        width: 100%;
+        background: var(--gray);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        
+    }
+    .singup, .download_link{
+        width: 100%;
+    }
+    .nav2_left {
+        width: 100%;
+    }
+    .nav2_left .nav2_left_search {
+        width: 100%;
+        margin-right: 0;
+    }
+    .nav2_left .nav2_left_list{
+        display: none;
+    }
+    .nav2_right{
+        display: none;
+    }
+    .form_hidden{
+        display: none;
+    }
+
+    .slide-container .slide-content .image-content {
+        height: 19rem;
+    }
+    .carousel {
+        width: 100%;
+        height: 100%;
+    }
+    .carousel .carosel{
+        display: none;
+    }
+    .game_detail_hover {
+        width: 100%;
+        margin: 1rem;
+    }
+    .type_rating_box {
+        width: 46%;
+    }
+
+    
+    /* .form_hidden{
+        display: none;
+    } */
+}
+@media only screen and (max-width : 399px){
+    html{
+        font-size: 50%;
+    }
+    body{
+        width: 100vw;
+    }
+    .navbar_flex {
+        height: 87rem;
+    }
+    .navbar_flex #signup_link1 {
+        height: 15.3%;
+        font-size: 1.3rem;
+    }
+    .type_rating_box {
+        width: 46%;
+    } 
+}
+@media only screen and (max-width : 379px){
+    html{
+        font-size: 50%;
+    }
+    body{
+        width: 100vw;
+    }
+    .navbar_flex {
+        height: 83vh;
+    }
+    .navbar_flex #signup_link1 {
+        height: 15.3%;
+        font-size: 1.3rem;
+    }
+    .slide-container .slide-content .image-content {
+        height: 14rem;
+    }
+    .suggestions .suggest_card {
+        height: 100%;
+        width: 33rem;
+    }
+    .type_rating_box {
+        width: 21rem;
+    } 
+}
+@media only screen and (max-width : 360px){
+    /* .type_rating_box {
+        width: 20rem;
+    } */
+    .type_rating_box {
+        width: 97%;
+    }
+}

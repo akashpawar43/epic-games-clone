@@ -1,0 +1,43 @@
+.suggestions {
+    max-width: 1140px;
+    height: 40rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+}
+
+.suggest_card {
+    height: 100%;
+    width: 35rem;
+}
+
+#suggest_img {
+    width: 100%;
+    border-radius: 1.5rem;
+}
+
+.suggest_card_text {
+    height: 18rem;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+#suggest_title {
+    padding-bottom: 1rem;
+    color: white;
+    font-size: 1.8rem;
+}
+
+#suggest_info {
+    font-size: 1.2rem;
+    height: 7rem;
+    color: var(--text_gray);
+}
+
+#game_play_price {
+    font-size: 2.5rem;
+    color: white;
+}
+
