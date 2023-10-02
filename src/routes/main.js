@@ -18,6 +18,7 @@ routes.get("/", async (req, res) => {
         slider: slider,
         carousel: carousel
     });
+    return { "dummy": "data"}
 })
 
 routes.get("/games", async (req, res) => {
