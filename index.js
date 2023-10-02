@@ -2,16 +2,16 @@ const express = require('express');
 const bodyparser = require('body-parser')
 const hbs = require('hbs');
 const app = express();
-require('./db/conn');
+require('./src/db/conn');
 
 require("dotenv").config();
 PORT = process.env.PORT;
-const routes = require('./routes/main')
+const routes = require('./src/routes/main')
 
 // models
-const Slider = require('./models/Slider')
-const Carousel = require('./models/Carousel')
-const Register = require('./models/Register')
+const Slider = require('./src/models/Slider')
+const Carousel = require('./src/models/Carousel')
+const Register = require('./src/models/Register')
 
 // to get the data from website
 app.use(bodyparser.urlencoded({
