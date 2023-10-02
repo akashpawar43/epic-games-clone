@@ -21,12 +21,12 @@ app.use(bodyparser.urlencoded({
 
 // to access public folder using static 
 app.use('/static', express.static("./public"));
-app.use('', routes);
-
 // hbs connect
 app.set('view engine', 'hbs');
 app.set('views', 'views');
 hbs.registerPartials("views/partials")
+app.use('', routes);
+
 
 
 
