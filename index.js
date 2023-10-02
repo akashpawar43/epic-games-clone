@@ -20,7 +20,7 @@ app.use(bodyparser.urlencoded({
 
 
 // to access public folder using static 
-app.use('/static', express.static("public"));
+app.use('/static', express.static("./public"));
 app.use('', routes);
 
 // hbs connect

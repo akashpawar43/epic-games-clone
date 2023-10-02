@@ -14,7 +14,7 @@ routes.get("/", async (req, res) => {
     const carousel = await Carousel.find()
     // console.log(slider);
     // console.log(carousel);
-    res.render('index', {
+    res.render('./index', {
         slider: slider,
         carousel: carousel
     });
@@ -24,7 +24,7 @@ routes.get("/", async (req, res) => {
 routes.get("/games", async (req, res) => {
     const slider = await Slider.findOne()
     // console.log(slider);
-    res.render('games', {
+    res.render('./games', {
         slider: slider,
     });
 })
@@ -45,7 +45,7 @@ routes.get('/games/:link_game_name', async (req, res) => {
     games_id = req.params.link_game_name;
     const slider = await Slider.findOne({ link_game_name: games_id });
     // console.log(slider) ;
-    res.render("games", {
+    res.render("./games", {
         slider: slider,
     });
 })
@@ -53,14 +53,14 @@ routes.get('/games/:link_game_name', async (req, res) => {
 
 // register form render
 routes.get('/register', (req, res) => {
-    res.render('register')
+    res.render('./register')
 })
 
 
 
 // register form render
 routes.get('/login', async (req, res) => {
-    res.render('login')
+    res.render('./login')
 })
 
 // register form submit
