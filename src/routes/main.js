@@ -14,7 +14,7 @@ routes.get("/", async (req, res) => {
     const carousel = await Carousel.find()
     // console.log(slider);
     // console.log(carousel);
-    res.render('./index', {
+    res.render('index', {
         slider: slider,
         carousel: carousel
     });
