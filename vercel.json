@@ -9,11 +9,7 @@
     "routes": [
         {
             "src": "/(.*)",
-            "dest": "main.js"
-        },
-        {
-            "src": "/games/(.*)",
-            "dest": "/views/partials/games.hbs"
+            "dest": "index.js"
         }
     ]
 }

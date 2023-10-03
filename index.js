@@ -1,6 +1,7 @@
 const express = require('express');
-const bodyparser = require('body-parser')
+const path = require('path');
 const hbs = require('hbs');
+const bodyparser = require('body-parser');
 const app = express();
 require('./src/db/conn');
 
@@ -19,39 +20,22 @@ app.use(bodyparser.urlencoded({
 }))
 
 
-// to access public folder using static 
-app.use('/static', express.static("./public"));
-// hbs connect
-app.set('view engine', 'hbs');
-app.set('views', 'views');
+
+
+app.set('view engine', 'hbs')
+
+app.set('views', path.join(__dirname, 'views'));
+app.use(express.static("./public"));
 hbs.registerPartials("views/partials")
+
 app.use('', routes);
 
+// hbs.registerPartials("views/partials")
 
 
 
 
 
-// databse connection
-// mongoose.set('strictQuery', false);
-// mongoose.connect("mongodb://127.0.0.1:27017/Epic", () => {
-//     console.log("DB is connnected");
-//     Slider.create([
-        
-//     ])
-// })
-
-app.get("/", async (req, res) => {
-    const slider = await Slider.find()
-    const carousel = await Carousel.find()
-    // console.log(slider);
-    // console.log(carousel);
-    res.render('index', {
-        slider: slider,
-        carousel: carousel
-    });
-    return { "dummy": "data"}
-})
 
 
 

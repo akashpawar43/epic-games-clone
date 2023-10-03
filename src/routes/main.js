@@ -9,17 +9,17 @@ const Register = require('../models/Register');
 const bcrypt = require('bcryptjs/dist/bcrypt');
 
 
-// routes.get("/", async (req, res) => {
-//     const slider = await Slider.find()
-//     const carousel = await Carousel.find()
-//     // console.log(slider);
-//     // console.log(carousel);
-//     res.render('index', {
-//         slider: slider,
-//         carousel: carousel
-//     });
-//     return { "dummy": "data"}
-// })
+routes.get("/", async (req, res) => {
+    const slider = await Slider.find()
+    const carousel = await Carousel.find()
+    // console.log(slider);
+    // console.log(carousel);
+    res.render('index', {
+        slider: slider,
+        carousel: carousel
+    });
+    return { "dummy": "data"}
+})
 
 routes.get("/games", async (req, res) => {
     const slider = await Slider.findOne()
