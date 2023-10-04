@@ -25,11 +25,11 @@ app.use(bodyparser.urlencoded({
 app.set('view engine', 'hbs')
 
 app.set('views', path.join(__dirname, 'views'));
+app.use(express.static(__dirname + '/public'));
 hbs.registerPartials("views/partials")
 
 app.use('', routes);
 
-app.use(express.static(__dirname + '/public'));
 
 
 
