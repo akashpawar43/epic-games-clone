@@ -3,16 +3,16 @@ const path = require('path');
 const hbs = require('hbs');
 const bodyparser = require('body-parser');
 const app = express();
-require('./src/db/conn');
+require('./db/conn');
 
 require("dotenv").config();
 PORT = process.env.PORT || 3000;
-const routes = require('./src/routes/main')
+const routes = require('./routes/main')
 
 // models
-const Slider = require('./src/models/Slider')
-const Carousel = require('./src/models/Carousel')
-const Register = require('./src/models/Register')
+const Slider = require('./models/Slider')
+const Carousel = require('./models/Carousel')
+const Register = require('./models/Register')
 
 // to get the data from website
 app.use(bodyparser.urlencoded({
@@ -24,8 +24,8 @@ app.use(bodyparser.urlencoded({
 
 app.set('view engine', 'hbs')
 
-app.set('views', path.join(__dirname, 'views'));
-app.use(express.static(__dirname + '/public'));
+app.set('views', path.join(__dirname, '/../views'));
+app.use(express.static(__dirname + '/../public'));
 hbs.registerPartials("views/partials")
 
 app.use('', routes);
