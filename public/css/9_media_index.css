@@ -221,7 +221,8 @@
         display: flex;
     }
     .slide-container .slide-content .image-content{
-        height: 34rem;
+        /* height: 34rem; */
+        height: 100%;
     }
     .slide-container .slide-content .image-content .card-image .card-img {
         width: 98%;
@@ -278,9 +279,11 @@
     }
     .slide-container .onSale{
         margin-left: 1rem;
+        top: 0rem;
     }
     .slide-container .slide-content .image-content{
-        height: 31rem;
+        /* height: 31rem; */
+        height: 100%;
     }
     .suggestions {
         gap: 3rem!important;
@@ -325,7 +328,8 @@
         right: 1rem;
     }
     .slide-container .slide-content .image-content{
-        height: 29rem;
+        /* height: 29rem; */
+        height: 100%;
     }
     .suggestion_section .suggestions {
         gap: 3rem;
@@ -419,7 +423,8 @@
 
     /* slider */
     .slide-container .slide-content .image-content {
-        height: 25rem;
+        /* height: 25rem; */
+        height: 100%;
     }
 
     .carousel{
@@ -585,7 +590,8 @@
     }
 
     .slide-container .slide-content .image-content {
-        height: 19rem;
+        /* height: 19rem; */
+        height: 100%;
     }
 
     .carousel{
@@ -687,7 +693,8 @@
         font-size: 1.3rem;
     }
     .slide-container .slide-content .image-content {
-        height: 18rem;
+        /* height: 18rem; */
+        height: 100%;
     }
     .suggestions .suggest_card {
         height: 100%;
