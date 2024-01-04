@@ -45,10 +45,13 @@ If you want to run the latest code from git, here's how to get started:
 
 <h2>Project Screenshots:</h2>
 
+1. Login
 <img src="https://github.com/akashpawar43/epic-games-clone/blob/main/public/images/tp_img/login.png" alt="project-screenshot" >
 
+2. Register
 <img src="https://github.com/akashpawar43/epic-games-clone/blob/main/public/images/tp_img/register.png" alt="project-screenshot" >
 
+3. HomePage
 <img src="https://github.com/akashpawar43/epic-games-clone/blob/main/public/images/tp_img/website1.png" alt="project-screenshot" >
 
 <img src="https://github.com/akashpawar43/epic-games-clone/blob/main/public/images/tp_img/website2.png" alt="project-screenshot" >
@@ -60,3 +63,12 @@ If you want to run the latest code from git, here's how to get started:
 <img src="https://github.com/akashpawar43/epic-games-clone/blob/main/public/images/tp_img/website5.png" alt="project-screenshot" >
 
 <img src="https://github.com/akashpawar43/epic-games-clone/blob/main/public/images/tp_img/website6.png" alt="project-screenshot" >
+
+3. GamesPage
+<img src="https://github.com/akashpawar43/epic-games-clone/blob/main/public/images/tp_img/games1.png" alt="project-screenshot" >
+
+<img src="https://github.com/akashpawar43/epic-games-clone/blob/main/public/images/tp_img/games2.png" alt="project-screenshot" >
+
+<img src="https://github.com/akashpawar43/epic-games-clone/blob/main/public/images/tp_img/games3.png" alt="project-screenshot" >
+
+<img src="https://github.com/akashpawar43/epic-games-clone/blob/main/public/images/tp_img/games4.png" alt="project-screenshot" >
