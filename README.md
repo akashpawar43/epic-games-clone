@@ -21,7 +21,7 @@ If you want to run the latest code from git, here's how to get started:
 
 1. Clone the code:
 
-        https://github.com/akashpawar45/epic-clone.git
+        https://github.com/akashpawar43/epic-games-clone.git
         cd epic-clone
 
 2. Install the node-red dependencies
@@ -45,18 +45,18 @@ If you want to run the latest code from git, here's how to get started:
 
 <h2>Project Screenshots:</h2>
 
-<img src="" alt="project-screenshot" >
+<img src="https://github.com/akashpawar43/epic-games-clone/blob/main/public/images/tp_img/login.png" alt="project-screenshot" >
 
-<img src="" alt="project-screenshot" >
+<img src="https://github.com/akashpawar43/epic-games-clone/blob/main/public/images/tp_img/register.png" alt="project-screenshot" >
 
-<img src="" alt="project-screenshot" >
+<img src="https://github.com/akashpawar43/epic-games-clone/blob/main/public/images/tp_img/website1.png" alt="project-screenshot" >
 
-<img src="" alt="project-screenshot" >
+<img src="https://github.com/akashpawar43/epic-games-clone/blob/main/public/images/tp_img/website2.png" alt="project-screenshot" >
 
-<img src="" alt="project-screenshot" >
+<img src="https://github.com/akashpawar43/epic-games-clone/blob/main/public/images/tp_img/website3.png" alt="project-screenshot" >
 
-<img src="" alt="project-screenshot" >
+<img src="https://github.com/akashpawar43/epic-games-clone/blob/main/public/images/tp_img/website4.png" alt="project-screenshot" >
 
-<img src="" alt="project-screenshot" >
+<img src="https://github.com/akashpawar43/epic-games-clone/blob/main/public/images/tp_img/website5.png" alt="project-screenshot" >
 
-<img src="" alt="project-screenshot" >
+<img src="https://github.com/akashpawar43/epic-games-clone/blob/main/public/images/tp_img/website6.png" alt="project-screenshot" >
